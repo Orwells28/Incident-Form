@@ -1,26 +1,26 @@
-<h1>JWipe - Disk Sanitization</h1>
+<h1>Configure Incident Form </h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
 <h2>Description</h2>
-Project consists of a simple PowerShell script that walks the user through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
+Project consists of a simple ServiceNow configuration / form layout. In this project I will configure the incident form Layout by adding and removing fields.
 <br />
 
 
-<h2>Languages and Utilities Used</h2>
+<h2>Fields being Removed</h2>
 
 - <b>PowerShell</b> 
 - <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
-- <b>Windows 10</b> (21H2)
+- <b>ServiceNow PDI (tokyo)</b> (21H2)
 
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Navigate to Incident form <br/>
+<img src="https://awesomescreenshot.s3.amazonaws.com/image/4303763/38096936-cf02431dfc043e94448b5bf29e6dab96.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20230317%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230317T171803Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=7f4f14a3afd1e7af420c22bf147cd7ffab12220f5014af5dddbc8e60be7b6810"/>
 <br />
 <br />
 Select the disk:  <br/>
