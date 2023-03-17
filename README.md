@@ -1,4 +1,4 @@
-<h1>Configure Incident Form </h1>
+<h1>Configure Incident Form (remove fields) </h1>
 
  ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
 
